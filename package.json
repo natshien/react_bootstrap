@@ -1,0 +1,32 @@
+{
+  "name": "react-tut",
+  "version": "1.0.0",
+  "description": "React with Webpack installation on Windows",
+  "main": "index.js",
+  "scripts": {
+    "test": "react-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:/Users/Natalia_Walendzik/.git/"
+  },
+  "keywords": [
+    "function",
+    "components",
+    "with",
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Natalia Walendzik",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "react": "^16.12.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2"
+  }
+}
