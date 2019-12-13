@@ -1,32 +1,24 @@
 {
-  "name": "react-tut",
+  "name": "react_bootstrap",
   "version": "1.0.0",
-  "description": "React with Webpack installation on Windows",
+  "description": "react_bootsrap",
   "main": "index.js",
   "scripts": {
-    "test": "react-test"
+    "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "C:/Users/Natalia_Walendzik/.git/"
+    "url": "git+https://github.com/natshien/react_bootstrap.git"
   },
   "keywords": [
-    "function",
-    "components",
-    "with",
-    "bootstrap",
-    "sass"
+    "react",
+    "hooks",
+    "bootstrap"
   ],
-  "author": "Natalia Walendzik",
+  "author": "nathien",
   "license": "ISC",
-  "dependencies": {
-    "bootstrap": "^4.4.1",
-    "express": "^4.17.1",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.16.0",
-    "react": "^16.12.0"
+  "bugs": {
+    "url": "https://github.com/natshien/react_bootstrap/issues"
   },
-  "devDependencies": {
-    "webpack": "^4.41.2"
-  }
+  "homepage": "https://github.com/natshien/react_bootstrap#readme"
 }
