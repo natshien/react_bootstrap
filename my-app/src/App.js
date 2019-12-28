@@ -1,26 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+/*import {
+  HashRouter,
+  Route,
+  Link,
+  Switch,
+  NavLink
+} from 'react-router-dom'; */
 import './App.css';
 
-function App() {
+// <Link to="/add_question">  <Link to="/compare_answers">
+
+function Menu() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className="main-menu">
+      <h2>Add Question</h2> 
+      <br/>
+      <h2>Compare My Answers</h2>
+    </div>      
   );
 }
 
-export default App;
+export default Menu;

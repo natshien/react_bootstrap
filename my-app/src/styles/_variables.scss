@@ -1,0 +1,52 @@
+/*
+$primary:       #70BC1E !default;
+$secondary:     #417C02 !default;
+$success:       #90E138 !default;
+$info:          #E7C73F !default;
+$warning:       #FFA820 !default;
+$danger:        #670014 !default;
+$light:         #A9FD4E !default;
+$dark:          #254601 !default;
+*/
+
+/*$grass:    #70BC1E !default;
+$olive:  #417C02 !default;
+$avocadoskin:  #254601 !default;
+$lightergreen:    #A9FD4E !default;
+$avocadoinside:     #90E138 !default;
+$moss: #E7C73F !default;
+$sunset:  #FFA820 !default;
+$burgundy: #670014 !default;
+
+
+$colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    "grass":         $grass,
+    "olive":         $olive,
+    "avocadoskin":   $avocadoskin,
+    "avocadoinside": $avocadoinside,
+    "lightergreen":  $lightergreen,
+    "moss":          $moss,
+    "sunset":        $sunset,
+    "burgundy":      $burgundy,
+  ),
+  $colors
+); */
+/*
+$theme-colors: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);*/

@@ -1,0 +1,21 @@
+$primary:       #70BC1E !default;
+$secondary:     #417C02 !default;
+$success:       #90E138 !default;
+$info:          #E7C73F !default;
+$warning:       #FFA820 !default;
+$danger:        #670014 !default;
+$light:         #A9FD4E !default;
+$dark:          #254601 !default;
+
+/*
+$primary:       $grass !default;
+$secondary:     $olive !default;
+$success:       $avocadoinside !default;
+$info:          $moss !default;
+$warning:       $sunset !default;
+$danger:        $burdundy !default;
+$light:         $lightergreen !default;
+$dark:          $avocadoskin !default;
+*/
+
+@import "node_modules/bootstrap/scss/bootstrap";
