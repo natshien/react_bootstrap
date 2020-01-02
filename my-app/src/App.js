@@ -6,7 +6,8 @@ import React from 'react';
   Switch,
   NavLink
 } from 'react-router-dom'; */
-import './App.css';
+import './App.scss';
+import './styles/custom.scss';
 
 // <Link to="/add_question">  <Link to="/compare_answers">
 
