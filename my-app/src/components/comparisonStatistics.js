@@ -1,0 +1,1 @@
+/* Display report FOR EACH QUESTION that contains: question, answer A, answer B, answer marked by user, percent of people who chose A and B - mocked */

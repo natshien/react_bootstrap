@@ -8,17 +8,16 @@ import React from 'react';
 } from 'react-router-dom'; */
 import './App.scss';
 import './styles/custom.scss';
+import MainMenu from './components/mainMenu';
 
 // <Link to="/add_question">  <Link to="/compare_answers">
 
-function Menu() {
+function App() {
   return (
-    <div className="main-menu">
-      <h2>Add Question</h2> 
-      <br/>
-      <h2>Compare My Answers</h2>
-    </div>      
+    <div className='container-fluid'>
+      < MainMenu />
+    </div>
   );
 }
 
-export default Menu;
+export default App;
