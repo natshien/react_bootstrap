@@ -139,7 +139,7 @@ const questions = [
         answerA: "Biographies",
         answerB: "Reportages"
     },
-]
+];
 
 const answers = [
     {
@@ -151,7 +151,7 @@ const answers = [
         id: 2,
         questionId: 2,
         answer: "a"
-    }
+    },
     {
         id: 3,
         questionId: 3,
@@ -161,7 +161,7 @@ const answers = [
         id: 4,
         questionId: 4,
         answer: "b"
-    }
+    },
     {
         id: 5,
         questionId: 5,
@@ -171,7 +171,7 @@ const answers = [
         id: 6,
         questionId: 6,
         answer: "a"
-    }
+    },
     {
         id: 7,
         questionId: 7,
@@ -181,7 +181,7 @@ const answers = [
         id: 8,
         questionId: 8,
         answer: "a"
-    }
+    },
     {
         id: 9,
         questionId: 9,
@@ -191,7 +191,7 @@ const answers = [
         id: 10,
         questionId: 10,
         answer: "a"
-    }
+    },
     {
         id: 11,
         questionId: 11,
@@ -201,7 +201,7 @@ const answers = [
         id: 12,
         questionId: 12,
         answer: "a"
-    }
+    },
     {
         id: 13,
         questionId: 13,
@@ -211,7 +211,7 @@ const answers = [
         id: 14,
         questionId: 14,
         answer: "b"
-    }
+    },
     {
         id: 15,
         questionId: 15,
@@ -221,7 +221,7 @@ const answers = [
         id: 16,
         questionId: 16,
         answer: "b"
-    }
+    },
     {
         id: 17,
         questionId: 17,
@@ -231,7 +231,7 @@ const answers = [
         id: 18,
         questionId: 18,
         answer: "b"
-    }
+    },
     {
         id: 19,
         questionId: 19,
@@ -242,4 +242,4 @@ const answers = [
         questionId: 20,
         answer: "b"
     }
-]
+];

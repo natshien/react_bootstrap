@@ -1,1 +1,0 @@
-/* Dislpaying success message after submitting new question and button for comparing user's answers */
