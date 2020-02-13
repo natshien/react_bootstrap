@@ -13,6 +13,7 @@ import MainMenu from './components/MainMenu';
 import CompareAnswers from './components/CompareAnswers';
 import QuestionForm from './components/QuestionForm';
 import SubmitSuccess from './components/SubmitSuccess';
+import AnswerQuestions from './components/AnswerQuestions';
 
 // <Link to="/add_question">  <Link to="/compare_answers">
 
@@ -21,10 +22,7 @@ import SubmitSuccess from './components/SubmitSuccess';
 function App() {
   return (
     <>
-    < MainMenu />
-    < QuestionForm />
-      < CompareAnswers />
-      <SubmitSuccess />
+      <AnswerQuestions />
     </>
   );
 }

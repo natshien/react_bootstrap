@@ -243,3 +243,5 @@ const answers = [
         answer: "b"
     }
 ];
+
+module.exports = {questions, answers};

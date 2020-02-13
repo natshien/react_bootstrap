@@ -2,4 +2,24 @@
 After last question is answered it should show the button 'see comparison'
  */
 
+ import React from 'react';
+ import {questions, answers} from '../mockupDB.js/questionsDB';
+
+ let questionsDB = [questions];
  
+ const AnswerQuestions = () => {
+
+    questionsDB.forEach( (e,i) => {
+     
+     console.log(e[i].questionText);
+    
+    })
+
+    return (
+         <div>
+             Hello React
+         </div>
+     )
+ }
+ 
+ export default AnswerQuestions;
