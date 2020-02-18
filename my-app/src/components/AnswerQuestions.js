@@ -5,15 +5,13 @@ After last question is answered it should show the button 'see comparison'
  import React from 'react';
  import {questions, answers} from '../mockupDB.js/questionsDB';
 
- let questionsDB = [questions];
+ let questionsDB = questions;
  
  const AnswerQuestions = () => {
 
-    const ask = questionsDB.map( (question,i) => {
-        return question[i].questionText;    
+    questionsDB.forEach( (question) => {
+        console.log(question.questionText);    
     })
-
-    console.log(ask);
 
     return (
          <div>
