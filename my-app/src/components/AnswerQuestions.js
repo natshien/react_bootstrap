@@ -9,11 +9,11 @@ After last question is answered it should show the button 'see comparison'
  
  const AnswerQuestions = () => {
 
-    questionsDB.forEach( (e,i) => {
-     
-     console.log(e[i].questionText);
-    
+    const ask = questionsDB.map( (question,i) => {
+        return question[i].questionText;    
     })
+
+    console.log(ask);
 
     return (
          <div>
