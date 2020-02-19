@@ -1,8 +1,8 @@
-const questions = [
+const questionsDB = [
     {
         id: 1,
         category: "cinema",
-        questionText: "Which 'The Withcher' series do you prefer?",
+        questionText: "Which 'The Witcher' series do you prefer?",
         answerA: "Polish production",
         answerB: "Netflix production"
     },
@@ -51,7 +51,7 @@ const questions = [
     {
         id: 8,
         category: "books",
-        questionText: "Which gender of booksdo you prefer?",
+        questionText: "Which kind of books you prefer?",
         answerA: "Detective stories",
         answerB: "Fantasy"
     },
@@ -72,7 +72,7 @@ const questions = [
     {
         id: 11,
         category: "drinks",
-        questionText: "Gin & tonic or Whisky & coke?",
+        questionText: "Gin & Tonic or Whisky & Coke?",
         answerA: "Gin & tonic",
         answerB: "Whisky & coke"
     },
@@ -86,7 +86,7 @@ const questions = [
     {
         id: 13,
         category: "cinema",
-        questionText: "Which Tolien screen adaptation do you prefer?",
+        questionText: "Which Tolkien screen adaptation do you prefer?",
         answerA: "Lord of the rings",
         answerB: "Hobbit"
     },
@@ -141,7 +141,7 @@ const questions = [
     },
 ];
 
-const answers = [
+const answersDB = [
     {
         id: 1,
         questionId: 1,
@@ -244,4 +244,4 @@ const answers = [
     }
 ];
 
-module.exports = {questions, answers};
+module.exports = {questionsDB, answersDB};

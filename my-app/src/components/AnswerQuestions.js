@@ -2,22 +2,37 @@
 After last question is answered it should show the button 'see comparison'
  */
 
- import React from 'react';
- import {questions, answers} from '../mockupDB.js/questionsDB';
+import React, { useState, useEffect } from 'react';
+import { questionsDB, answersDB } from '../mockupDB.js/questionsDB';
 
- let questionsDB = questions;
- 
- const AnswerQuestions = () => {
+const AnswerQuestions = () => {
 
-    questionsDB.forEach( (question) => {
-        console.log(question.questionText);    
-    })
+  //const [questions, setQuestions] = useState(questionsDB);
+  let questions = questionsDB;
 
-    return (
-         <div>
-             Hello React
-         </div>
-     )
- }
- 
- export default AnswerQuestions;
+  console.log(questions);
+
+  let askForm = questions.map((question) => {
+
+    return (<div className="askBox">
+      <h4>{question.questionText}</h4>
+      <form>
+        <input type="radio" id="ansA" value={question.answerA}></input> <label for="ansA">{question.answerA}</label><br />
+        <input type="radio" id="ansB" value={question.answerB}></input> <label for="ansB">{question.answerB}</label><br />
+        <button type="submit">Next</button>
+      </form>
+    </div>
+    )
+  });
+
+
+  return (
+    <div>
+      Hello React
+            {askForm}
+    </div>
+  )
+
+};
+
+export default AnswerQuestions;
