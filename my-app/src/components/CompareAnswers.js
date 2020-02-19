@@ -4,7 +4,8 @@ import React from 'react'
  
 export default function CompareAnswers() {
     return (
-        <div className="dropdown container">
+        <div className="container">
+        <div className="dropdown mb-2">
             <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Category
            </button>
@@ -14,8 +15,8 @@ export default function CompareAnswers() {
                 <button className="dropdown-item" >Food</button>
                 <button className="dropdown-item" >Drinks</button>
             </div>
-            <br />
-            <button className="btn btn-secondary" type="button" id="start">Start</button>
+        </div>
+        <button className="btn btn-secondary" type="button" id="start">Start</button>
         </div>
     )
 };

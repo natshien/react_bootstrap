@@ -22,7 +22,10 @@ import AnswerQuestions from './components/AnswerQuestions';
 function App() {
   return (
     <>
-      <AnswerQuestions />
+      <CompareAnswers/>
+      <MainMenu/>
+      <QuestionForm/>
+      
     </>
   );
 }

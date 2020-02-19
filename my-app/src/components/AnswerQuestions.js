@@ -15,7 +15,7 @@ const AnswerQuestions = () => {
   let askForm = questions.map((question) => {
 
     return (<div className="askBox">
-      <h4>{question.questionText}</h4>
+      <h5>{question.questionText}</h5>
       <form>
         <input type="radio" id="ansA" value={question.answerA}></input> <label for="ansA">{question.answerA}</label><br />
         <input type="radio" id="ansB" value={question.answerB}></input> <label for="ansB">{question.answerB}</label><br />
