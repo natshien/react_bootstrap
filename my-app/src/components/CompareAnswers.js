@@ -1,22 +1,24 @@
 /* Dropdown to choose category and button to start */
+import React from 'react';
+import Dropdown from 'react-bootstrap/Dropdown';
 
-import React from 'react'
  
 export default function CompareAnswers() {
     return (
         <div className="container">
-        <div className="dropdown mb-2">
-            <button className="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Category
-           </button>
-            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <button className="dropdown-item" >Cinema</button>
-                <button className="dropdown-item" >Books</button>
-                <button className="dropdown-item" >Food</button>
-                <button className="dropdown-item" >Drinks</button>
-            </div>
-        </div>
+        <Dropdown>
+        <Dropdown.Toggle variant="success" id="dropdown-basic">
+            Category
+        </Dropdown.Toggle>
+            <Dropdown.Menu id="dropdown-category" className="" title="Category">
+                <Dropdown.Item >Cinema</Dropdown.Item>
+                <Dropdown.Item >Books</Dropdown.Item>
+                <Dropdown.Item >Food</Dropdown.Item>
+                <Dropdown.Item>Drinks</Dropdown.Item>
+            </Dropdown.Menu>
+        </Dropdown>
         <button className="btn btn-secondary" type="button" id="start">Start</button>
         </div>
     )
 };
+
