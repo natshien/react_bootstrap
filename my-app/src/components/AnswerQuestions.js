@@ -5,35 +5,36 @@ After last question is answered it should show the button 'see comparison'
 import React, { useState, useEffect } from 'react';
 import { questionsDB, answersDB } from '../mockupDB.js/questionsDB';
 
-const AnswerQuestions = () => {
 
-  //const [questions, setQuestions] = useState(questionsDB);
-  let questions = questionsDB;
-
+const AnswerQuestions = (props) => {
+  
+  const [questions, setQuestions] = useState(props);
+  
+  useEffect(()=>{
+    setQuestions(questionsDB);
+  }, []);
+  
   console.log(questions);
 
-  let askForm = questions.map((question) => {
-
-    return (<div className="askBox">
-      <h5>{question.questionText}</h5>
-      <form>
-        <input type="radio" id="ansA" name="answer" value={question.answerA}></input> <label for="ansA">{question.answerA}</label><br />
-        <input type="radio" id="ansB" name="answer" value={question.answerB}></input> <label for="ansB">{question.answerB}</label><br />
-        <button>Prev</button>
-        <button type="submit">Next</button>
-      </form>
-    </div>
-    )
-  });
-
-
   return (
-    <div>
-      Hello React
-            {askForm}
-    </div>
+    <>
+    HELLO REACT
+    </>
   )
-
+      
 };
 
 export default AnswerQuestions;
+
+//questions.map((questions,index) => {
+      //return (<div className="askBox">
+      //  <h5>{question.questionText}</h5>
+      //  <form>
+      //    <input type="radio" id="ansA" name="answer" value={question.answerA}></input> <label for="ansA">{question.answerA}</label><br />
+      //    <input type="radio" id="ansB" name="answer" value={question.answerB}></input> <label for="ansB">{question.answerB}</label><br />
+      //    <button>Prev</button>
+      //    <button type="submit">Next</button>
+      //  </form>
+      //</div>
+      //)
+    //});
