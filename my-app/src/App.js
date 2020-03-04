@@ -10,7 +10,7 @@ import './index.scss';
 import './App.scss';
 import './styles/custom.scss';
 import MainMenu from './components/MainMenu';
-import CompareAnswers from './components/CompareAnswers';
+import SelectQuestionCategory from './components/SelectQuestionCategory';
 import QuestionForm from './components/QuestionForm';
 import SubmitSuccess from './components/SubmitSuccess';
 import AnswerQuestions from './components/AnswerQuestions';

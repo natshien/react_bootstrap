@@ -3,7 +3,7 @@ import React from 'react';
 import Dropdown from 'react-bootstrap/Dropdown';
 
  
-export default function CompareAnswers() {
+export default function SelectQuestionCategory() {
     return (
         <div className="container">
         <Dropdown>
